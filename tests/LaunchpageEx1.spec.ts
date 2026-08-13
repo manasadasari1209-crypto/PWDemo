@@ -5,6 +5,7 @@ test('Login to Practice Test Automation', async({page})=>{//page is a fixture
    console.log("Current Url is:", page.url());
  })
 test('Verify tohaveurl', async({page})=>{
+   // Add comments
     await page.goto('https://practicetestautomation.com/practice-test-login/')
    //await expect(page).toHaveURL('https://practicetestautomation.com/practice-test-login/')
    await expect(page).toHaveURL(/practice/);//using regular expression using a key word
