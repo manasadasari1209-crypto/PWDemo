@@ -13,5 +13,5 @@ expect(response.status()).toBe(200);//verify the GET req returns status code
 //expect(responsebody.id).toBe(1)--returns error
 expect(responsebody.userId).toBe(1)//verifying if the userId is correct
 
-expect(responsebody.id).
+expect(responsebody.id).toBe(1);
 })
